@@ -16,8 +16,8 @@ Requirements
 
 The script requires the following to run:
 
-  * [python]python 3.7+
-  * [flask]Flask framework 
+  * [python][python] 3.7+
+  * [flask][Flask]
   * Cors
   * [arduino-cli]arduino-cli
   * ESP8266 library on arduino-cli
