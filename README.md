@@ -7,7 +7,7 @@ Table of Contents
 
   * [Requirements](#requirements)
   * [Usage](#usage)
-  * [How does it work?](#how does it work?)
+  * [How does it work?](#how-does-it-work?)
   * [Contributing](#contributing)
   * [Support and Migration](#support-and-migration)
   * [License](#license)
