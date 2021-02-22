@@ -7,6 +7,7 @@ Table of Contents
 
   * [Requirements](#requirements)
   * [Usage](#usage)
+  * [How does it work?](#how does it work?)
   * [Contributing](#contributing)
   * [Support and Migration](#support-and-migration)
   * [License](#license)
@@ -18,8 +19,8 @@ The script requires the following to run:
 
   * [python] 3.7+
   * [flask] framework
-  * [arduino-cli][arduino-cli]
-  * [espota.py][espota.py] 
+  * [arduino-cli]
+  * [espota.py]
 
 
 [python]: https://www.python.org/downloads/
@@ -38,6 +39,14 @@ Run Blocklys index.html on a localhost port (you can use python -m http.server 8
 
 If everything goes well hit the 'Upload to NodeMcu' button and it's done, the code is uploaded.
 
+How does it work?
+-----
+
+When user hits the 'Upload to NodeMcu' button:
+1. BlockyDuino sends the users code to the server.
+2. server saves it as an ino file on the decided directory (here its 'C:/Users/NodeMcu') then runs the nodemcu exe file.
+3. nodemcu transfers the code in a folder with the same name, adds the neccessary scripts for making online connection from the 
+   online_connection.txt file, compile's the code with arduino-cli then uploads it using espota.py through Wi-Fi connection.
 
 Contributing
 -----
