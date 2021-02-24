@@ -261,7 +261,7 @@ function uploadClick() {
     });
 }
 
-function upload_to_nodmcu() {
+function upload_to_nodemcu() {
     
     // Get the users arduino code
     var code = [Blockly.Arduino.workspaceToCode()]
