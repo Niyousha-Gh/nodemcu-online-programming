@@ -261,12 +261,12 @@ function uploadClick() {
     });
 }
 
-function upload_compile_click() {
+function upload_to_nodmcu() {
     
+    // Get the users arduino code
     var code = [Blockly.Arduino.workspaceToCode()]
-    
     const content = {project: code};
-
+  
     // The actual fetch request
     fetch('http://localhost:5000/', {
         method: 'POST',
