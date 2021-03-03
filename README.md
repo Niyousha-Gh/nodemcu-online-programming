@@ -8,9 +8,6 @@ Table of Contents
   * [Requirements](#requirements)
   * [Usage](#usage)
   * [How does it work?](#how-does-it-work?)
-  * [Contributing](#contributing)
-  * [Support and Migration](#support-and-migration)
-  * [License](#license)
 
 Requirements
 ------------
@@ -47,19 +44,5 @@ When user hits the 'Upload to NodeMcu' button:
 2. server saves it as an ino file on the decided directory (here its 'C:/Users/NodeMcu') then runs the nodemcu exe file.
 3. nodemcu exe file transfers the code in a folder with the same name, adds some neccessary scripts online_connection.txt file to the users code      in order to make online connection, compile's the code with arduino-cli then uploads it using espota.py through Wi-Fi connection.
 
-Contributing
------
-
-Not yet
-
-Support and Migration
------
-
-Not yet
-
-License
------
-
-Not yet  
 
 
