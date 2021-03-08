@@ -5,16 +5,16 @@ import shutil
 
 # Directories
 # The .ino file path 
-project_path = 'C:/Users/NodeMcu'
+project_path = 'Downloads/NodeMcu'
 
 # The espota file path
-espota_path = 'C:/Users/NodeMcu'
+espota_path = 'Downloads/NodeMcu'
 
 # The arduino-cli path 
-arduino_cli_path = 'C:/Users/NodeMcu'
+arduino_cli_path = 'Downloads/NodeMcu'
 
 # The online connection file path
-connectionfile_path = 'C:/Users/NodeMcu/online_connection.txt'
+connectionfile_path = 'Downloads/NodeMcu/online_connection.txt'
 
 
 def get_ip() -> str:
