@@ -5,7 +5,7 @@ import os
 import subprocess
 
 # users project file path
-project_path = "C:/Users/NodeMcu"
+project_path = "C:/Users/Ice/Downloads/NodeMcu"
 
 app = Flask(__name__)
 CORS(app)
