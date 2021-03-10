@@ -31,7 +31,8 @@ Usage
 -----
 
 In Order to upload your first code, download this repository then costomize all the paths inside the nodemcu.py and server.py file. Dont forget to turn the nodemcu.py to an exe file again(you can use [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/installation.html) package to do so). It's better to put all the files like arduino-cli, espota.py, nodemcu exe file and online-connection.txt in one directory for example mine is 'C:/Users/Ice/Downloads/NodeMcu'.
-Extract the BlocklyDuino exe then Run it with a localhost port (you can use python -m http.server 8000 command) Then activate the server.py file which will run on port number 5000 by default follow [flask tutorial](https://flask.palletsprojects.com/en/1.1.x/cli/) for more information. Now Connect to 'ESP8266 Access Point' access point, the password is 'thereisnospoon'.
+
+Extract the BlocklyDuino exe then Run it on a localhost port (you can use python -m http.server 8000 command) Then activate the server.py file which will run on port number 5000 by default follow [flask tutorial](https://flask.palletsprojects.com/en/1.1.x/cli/) for more information. Now Connect to 'ESP8266 Access Point' access point, the password is 'thereisnospoon'.
 
 If everything goes well hit the 'Upload to NodeMcu' button and it's done, the code is uploaded.
 
