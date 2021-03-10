@@ -11,7 +11,7 @@ License
 ------------
 The specific offline BlucklyDuino source project is licensed under the Apache License v2.0
 
-Copyright (C) 2012 Niyousha-GH
+Copyright (C) 2021 Niyousha-GH
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
